@@ -1,0 +1,135 @@
+.m-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.brackets a:before
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    top: 15px;
+    transition: all 0.3s;
+    content: '❥';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div.brackets a:hover:before
+{
+    opacity: 1;
+    transform: translateX(0px);
+    color: red;
+}
+
+/*
+  For that background
+*/
+
+.bg {
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+.bg-img {
+  height: 100%;
+  position: relative;
+  top: 0;
+  text-align: center;
+  background: url("../img/background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-center {
+  height: 100%;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bg-title {
+  color: white;
+  font-size: 3em;
+}
+
+.bg-subtitle {
+  color: white;
+  font-size: 2em;
+}
+
+.register {
+  text-align: center;
+  font-size: 30px;
+  height: 60px;
+  width: 200px;
+  margin: 20px auto -40px;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tt {
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sch {
+  width: 70%;
+  margin-left: 22%;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.plain {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-center {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sponsor-row {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: black;
+}
+
+.footer p {
+  color: white;
+}
+
+#map {
+    text-align: center;
+    width: 70%;
+    height: 400px;
+    background-color: grey;
+    left:15%;
+      }
+.navbar-brand{
+  padding:0 !important 
+}
+
+.schedule-each{
+  text-align: center;
+}
+
+.schedule{
+  text-align: center;
+}

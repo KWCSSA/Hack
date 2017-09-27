@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+	<title>!SingleHack</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script async defer
+  	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbjvCT53BXUrpOY0lMTv227TBlod-yHx4&callback=initMap">
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top m-font">
+		<div class="container">
+			<div class="navbar-header">
+				<img class="navbar-brand"  src="img/logo.JPG"  style="display:block;max-width:100px;min-width:60px;position:fixed;left:30px;" > </img>
+				<!-- <img src="img/logo.JPG" style="width:70px; height:40px" alt="!SingleHack Logo">  -->
+			</div>
+			<div id="navbar3" class="navbar-collapse collapse brackets">
+
+				<ul class="nav navbar-nav navbar-right m-font">
+					<li style="font-size: 20px;"><a href="#about">About</a></li>
+					<li style="font-size: 20px;"><a href="#map">Map</a></li>
+					<li style="font-size: 20px;"><a href="#schedule">Schedule</a></li>
+					<li style="font-size: 20px;"><a href="#faq">FAQ</a></li>
+					<li style="font-size: 20px;"><a href="#sponsor">Sponsor</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="bg">
+		<div class="bg-img">
+			<div class="bg-center">
+				<br><br><br><br><br><br><br><br>
+				<!-- <h1 class="bg-title">!SingleHack 2017 <bg-title style="color:red">@</bg-title> UWaterloo</h1> -->
+				<h2 class="bg-subtitle">October 15, 2017</h2>
+				<br><br><br><br><br><br><br><br>
+				<a class="btn btn-large btn-success register" href="https://zzq.typeform.com/to/SyH3zs"><p>Register</p></a>
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+	<div id="about"></div>
+	<h2 class="tt">About</h2>
+	<br>
+	<p class="plain">In the context of a hackathon, the word "hack" is used to describe how multiple technologies can be used together in a new and innovative way. ! Single Hack is a 12-hour hackathon where we will bring a software to to real life to find our significant other! <br> 
+	! Single Hack is held by KWCSSA,and it is the first for KWCSSA to host a hackthon. We are open to students in any faculty from any schools. We hope and welcome you to join the !Single Hack community.
+	</p>
+	<div >
+	<h2 class="tt">Map</h2>
+    <div id="map"></div>
+    </div>
+
+	<div id="schedule"></div>
+	<h2 class="tt">Schedule</h2>
+	<div class="tt">
+		<div class="row">
+			<div class="">
+				<!-- <h3>Saturday, Sept. 30th</h3> -->
+				<p><span class="space-right">09:00</span> Sponsor Booth Setup</p>
+				<p><span class="space-right">10:00</span> Check-in</p>
+				<p><span class="space-right">12:00</span> Lunch</p>
+				<p><span class="space-right">21:00</span> Projects Due</p>
+				<p><span class="space-right">21:30</span> Project Demo</p>
+				<p><span class="space-right">22:30</span> Closing Ceremony</p>
+			</div>
+			<!-- <div class="col-xs-12 col-md-6 schedule-each">
+				<h3>Sunday, Oct. 1st</h3>
+				<p><span class="space-right">08:30</span> Breakfast</p>
+				<p><span class="space-right">12:00</span> Lunch</p>
+				<p><span class="space-right">13:00</span> Projects Due</p>
+				<p><span class="space-right">14:00</span> Project Demo</p>
+				<p><span class="space-right">16:00</span> Final Presentation</p>
+				<p><span class="space-right">18:00</span> Closing Ceremony</p>
+			</div> -->
+		</div>
+	</div>
+
+
+	<div id="faq"></div>
+	<h2 class="tt">FAQ</h2>
+	<div class="row">
+	<div class="col-xs-12 col-md-6 schedule-each">
+				<p class="plain"> Q: Will there be prizes?</p>
+				<p class="plain"> A: Yes, of course! We will will select the three best hacks based on creativity, technical difficulty, design, and usefulness. Prizes for first, second and third place TBA.</p>
+				<br>
+				<p class="plain"> Q: What should I bring?</p>
+				<p class="plain"> A: Please bring a valid university ID, a computer (preferably a laptop), chargers, and any hardware you will use for your hack.</p>
+				<br>
+				<p class="plain"> Q: What size are the teams? What happens if I don’t have a team?</p>
+				<p class="plain"> A: The teams are a maximum of 4 people. You can start to hack already with a team or you can meet with people at the event who also don’t have a team, don’t worry!</p>
+			</div>
+	<div class="col-xs-12 col-md-6 schedule-each">
+				<p class="plain"> Q: What is KWCSSA?</p>
+				<p class="plain"> A: Founded in 2006, previously known as University of Waterloo Chinese Students and Scholars Association (UWCSSA) is an independent, non-profit organization.
+				As the largest and most influential Chinese organization in the Kitchener-Waterloo area, KWCSSA is dedicated to providing various services and to assisting Chinese students/scholars in the region of Waterloo. We promote intellectual, social, and cultural activities for local Chinese students and scholars.</p>
+				<br>
+				<p class="plain"> Q: But I know nothing about health/coding?!</p>
+				<p class="plain"> A: Just dont worry! You can come with an open mind, find a team, learn a lot, and most importantly, have fun.</p>
+				<br>
+				<p class="plain"> Q: What if I have more questions?</p>
+				<p class="plain"> A: We're always open at it@uwcssa.ca. Send us an email, and we'll help you out!</p>
+			</div>
+	</div>
+
+	<!-- <div id="faq"></div>
+	<h2 class="tt">Schedule</h2>
+	<br>
+	<div class="m-font">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 schedule-each">
+				<p class="plain"> Q: Will there be prizes?</p>
+				<p> A: Yes, of course!</p>
+				<p><span class="space-right">11:00</span> Opening Ceremony</p>
+				<p><span class="space-right">12:00</span> Lunch</p>
+				<p><span class="space-right">13:00</span> Start Hacking</p>
+				<p><span class="space-right">18:00</span> Dinner</p>
+			</div>
+			<div class="col-xs-12 col-md-6 schedule-each">
+				<p><span class="space-right">08:30</span> Breakfast</p>
+				<p><span class="space-right">12:00</span> Lunch</p>
+				<p><span class="space-right">13:00</span> Projects Due</p>
+				<p><span class="space-right">14:00</span> Project Demo</p>
+				<p><span class="space-right">16:00</span> Final Presentation</p>
+				<p><span class="space-right">18:00</span> Closing Ceremony</p>
+			</div>
+		</div>
+	</div> -->
+
+
+	<div id="sponsor"></div>
+	<h2 class="tt">Sponsor - You complete us!</h2>
+	<h4 class="tt">Please contact it@uwcssa</h4>
+	<div>
+	<div class="sponsor-row">
+		<div class="col-sm-6"> 
+	  		<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+		</div>
+		<div class="col-sm-6"> 
+	  		<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+		</div>
+	</div>
+	<div class="sponsor-row">
+		<div class="col-sm-6"> 
+	  		<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+		</div>
+		<div class="col-sm-6"> 
+	  		<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+		</div>
+	</div>
+	</div>
+	</div>
+
+	<footer class="container-fluid text-center footer">
+      <p>KWCSSA 2017</p>
+    </footer>
+
+</body>
+</html>
