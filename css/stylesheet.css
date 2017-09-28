@@ -66,7 +66,7 @@ div.brackets a:hover:before
 
 #contentBox {
     border-bottom: 10px;
-    height: 100px;
+    height: 150px;
 }
 
 .register {
@@ -80,7 +80,7 @@ div.brackets a:hover:before
 }
 
 .tt {
-  margin-top: 80git px;
+  margin-top: 70px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -135,7 +135,7 @@ div.brackets a:hover:before
     left:15%;
       }
 .column {
-    float:left;
+    float: left;
     margin:0;
     width:33%;
 }
