@@ -61,6 +61,12 @@ div.brackets a:hover:before
 .bg-subtitle {
   color: white;
   font-size: 2em;
+    padding-top: 20%;
+}
+
+#contentBox {
+    border-bottom: 10px;
+    height: 100px;
 }
 
 .register {
@@ -74,7 +80,7 @@ div.brackets a:hover:before
 }
 
 .tt {
-  margin-top: 60px;
+  margin-top: 80git px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -91,6 +97,12 @@ div.brackets a:hover:before
   margin-left: auto;
   margin-right: auto;
   font-family: 'Montserrat', sans-serif;
+}
+
+.desc {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 .text-center {
@@ -122,8 +134,18 @@ div.brackets a:hover:before
     background-color: grey;
     left:15%;
       }
+.column {
+    float:left;
+    margin:0;
+    width:33%;
+}
+.icon {
+    height: 100px;
+    padding-left: 35%;
+}
+
 .navbar-brand{
-  padding:0 !important 
+  padding:0 !important;
 }
 
 .schedule-each{
@@ -133,3 +155,4 @@ div.brackets a:hover:before
 .schedule{
   text-align: center;
 }
+
