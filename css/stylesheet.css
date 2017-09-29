@@ -155,9 +155,10 @@ div.brackets a:hover:before
 }
 
 .sponsor-row {
-  width: 70%;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
+    align: center;
 }
 
 .footer {
@@ -200,6 +201,7 @@ div.brackets a:hover:before
   text-align: center;
 }
 
+
 .faqtt {
   /*margin-top: 30px;*/
   text-align: center;
@@ -207,9 +209,36 @@ div.brackets a:hover:before
 }
 
 .offer{
-  margin-bottom: 30px
+  margin-bottom: 50px
 }
 
 .mapclass{
    padding-bottom: 70px
 }
+
+.col-sm-6 {
+    height: 150px;
+}
+
+.img-responsive {
+    height:100px;
+    width:100px;
+}
+
+#col1 {
+    float:right;
+}
+#col2 {
+    float:left;
+}
+.kwcssa{
+    padding-top:30px;
+    width: 400px;
+    align:center;
+}
+
+#faq{
+  font-size:17px;
+}
+
+
