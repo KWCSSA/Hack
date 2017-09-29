@@ -141,6 +141,7 @@ div.brackets a:hover:before
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding-top: 50px;
 
 }
 
@@ -244,6 +245,6 @@ div.brackets a:hover:before
 }
 
 .reg{
-  margin-top:125%;
+  margin-top:125%;}
 
 
