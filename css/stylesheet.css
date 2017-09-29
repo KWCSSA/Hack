@@ -120,9 +120,10 @@ div.brackets a:hover:before
 }
 
 .sponsor-row {
-  width: 70%;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
+    align: center;
 }
 
 .footer {
@@ -165,10 +166,22 @@ div.brackets a:hover:before
 }
 
 .col-sm-6 {
-    height: 200px;
+    height: 150px;
 }
 
 .img-responsive {
-    height:200px;
-    width:200px;
+    height:100px;
+    width:100px;
+}
+
+#col1 {
+    float:right;
+}
+#col2 {
+    float:left;
+}
+.kwcssa{
+    padding-top:30px;
+    width: 400px;
+    align:center;
 }
