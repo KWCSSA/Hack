@@ -134,12 +134,14 @@ div.brackets a:hover:before
   font-family: 'Montserrat', sans-serif;
 }
 
-.abouttext {
+.about-text {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
 }
 
 .desc {
@@ -240,5 +242,13 @@ div.brackets a:hover:before
 #faq{
   font-size:17px;
 }
-
-
+.room-row {
+    width:600px;
+    height: 200px;
+}
+.room-photo {
+    width:300px;
+}
+.room {
+    width:400px;
+}
