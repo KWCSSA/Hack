@@ -60,6 +60,7 @@ div.brackets a:hover:before
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top:30px;
+  margin-bottom: 30px;
 }
 
 .backimg-top {
@@ -115,7 +116,19 @@ div.brackets a:hover:before
 }
 
 .tt {
-  margin-top: 70px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sponsortt {
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.schedulett {
+  font-size: 20px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -245,6 +258,6 @@ div.brackets a:hover:before
 }
 
 .reg{
-  margin-top:22em;
+  margin-top:250px;
 }
 
