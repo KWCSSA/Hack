@@ -171,7 +171,7 @@ div.brackets a:hover:before
 }
 
 .sponsor-row {
-  width: 250px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
     align: center;
@@ -238,15 +238,14 @@ div.brackets a:hover:before
 
 .img-responsive {
     height:100px;
-    width:100px;
+    /*width:100px;*/
 }
 
-#col1 {
-    float:right;
+.sponsor-pics {
+  float: left;
+  margin: 20px;
 }
-#col2 {
-    float:left;
-}
+
 .kwcssa{
     padding-top:30px;
     width: 400px;
