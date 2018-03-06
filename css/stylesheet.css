@@ -202,7 +202,12 @@ div.brackets a:hover:before
 }
 .icon {
     height: 100px;
-    padding-left: 35%;
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
 }
 
 .navbar-brand{
@@ -243,7 +248,7 @@ div.brackets a:hover:before
 
 .sponsor-pics {
   float: left;
-  margin: 20px;
+  margin-top:20px;
 }
 
 .kwcssa{
